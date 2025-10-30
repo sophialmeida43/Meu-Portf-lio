@@ -1,0 +1,49 @@
+/* Define o estilo geral do corpo da página */
+body {
+    background-color: rgb(26, 26, 26); /* Fundo escuro */
+}
+
+/* Estilo do título principal (h1) */
+h1 {
+  color: rgb(40, 104, 57); /* Cor verde do texto */
+  display: flex; /* Usa flexbox para alinhar o conteúdo */
+  justify-content: space-evenly; /* Distribui o conteúdo de forma uniforme */
+  font-family: monospace; /* Fonte monoespaçada */
+  font-size: 35px; /* Tamanho da fonte */
+  position: relative; /* Permite ajustar a posição */
+  left: 15px; /* Move o título 15px para a direita */
+  top: 10px; /* Move o título 10px para baixo */
+}
+
+/* Estilo das imagens gerais */
+img {
+    width: 85px; /* Largura da imagem */
+    height: 80px; /* Altura da imagem */
+    display: flex; /* Flexbox (não é necessário para img, mas mantido) */
+    justify-content: space-evenly; /* Distribuição horizontal (não aplica em imagens isoladas) */
+    position: relative; /* Permite ajustar a posição */
+    left: 400px; /* Move 400px para a direita */
+    top: 65px; /* Move 65px para baixo */
+}
+
+/* Reaplicando estilo geral ao body (mantendo o fundo escuro) */
+body {
+    background-color: rgb(26, 26, 26); /* Fundo escuro */
+    text-align: center; /* Centraliza todo o texto */
+    color: white; /* Cor branca para o texto */
+    font-family: Arial, sans-serif; /* Fonte padrão do site */
+}
+
+/* Estilo geral das imagens */
+img {
+    width: 80px; /* Largura ajustada */
+    transition: 0.3s ease; /* Transição suave de 0.3s para efeitos */
+}
+
+/* Efeito ao passar o mouse sobre imagens dentro de links */
+a img:hover {
+    filter: brightness(1.3); /* Aumenta o brilho da imagem */
+    box-shadow: 0 0 15px 5px white; /* Sombra/brilho ao redor da imagem */
+    border-radius: 50%; /* Deixa a imagem redonda */
+    transform: scale(1.05); /* Aumenta levemente o tamanho */
+}

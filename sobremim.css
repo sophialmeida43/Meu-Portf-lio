@@ -1,0 +1,49 @@
+/* Define o estilo geral do corpo da página */
+body {
+    background-color: rgb(26, 26, 26); /* Define um fundo escuro para a página */
+}
+
+/* Define o estilo de todas as imagens */
+img {
+    height: 565px; /* Altura da imagem */
+    width: 480px; /* Largura da imagem */
+    margin: 20px auto; /* Margem de 20px e centralização horizontal */
+    position: relative; /* Permite mover a imagem em relação à posição original */
+    left: 20px; /* Move a imagem 20px para a direita */
+    top: 13px; /* Move a imagem 13px para baixo */
+}
+
+/* Estilo do título principal (h1) */
+h1 {
+    color: rgb(40, 104, 57); /* Cor verde do texto */
+    display: flex; /* Usa o modelo flexbox para alinhar o texto */
+    justify-content: center; /* Centraliza o título horizontalmente */
+    font-family: fantasy; /* Fonte decorativa */
+    font-size: 35px; /* Tamanho da fonte */
+    position: relative; /* Permite ajustar a posição do elemento */
+    left: 200px; /* Move o título 200px para a direita */
+    top: 50px; /* Move o título 50px para baixo */
+}
+
+/* Estilo específico para o GIF do robô */
+#robo {
+    display: flex; /* Usa flexbox (apesar de aplicado a uma imagem, serve para controle de posição) */
+    justify-content: center; /* Centraliza o conteúdo (no caso, o GIF) */
+    width: 100px; /* Largura do GIF (pequeno, mas visível) */
+    height: 105px; /* Altura do GIF */
+    position: relative; /* Permite ajustar a posição */
+    left: 185px; /* Move o GIF 185px para a direita */
+    top: 40px; /* Move o GIF 40px para baixo */
+}
+
+/* Estilo do parágrafo principal de texto */
+p {
+    color: aliceblue; /* Cor clara para o texto (visível no fundo escuro) */
+    justify-content: space-between; /* Distribui o texto uniformemente (embora não use display flex aqui) */
+    font-size: 29px; /* Tamanho da fonte */
+    position: absolute; /* Fixa o texto em uma posição exata na tela */
+    position: -webkit-sticky; /* Define comportamento fixo para navegadores WebKit (mantido como está) */
+    left: 520px; /* Move o texto 520px para a direita */
+    top: 210px; /* Move o texto 210px para baixo */
+}
+

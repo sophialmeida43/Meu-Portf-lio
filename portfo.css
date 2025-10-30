@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container div {
+    width: 100px;
+    margin-right: 10svw;
+    margin-left: 0 10svw;
+}
+
+
+.nav-item img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    position: relative;
+    left: 25px;
+    top: 65px;
+}
+
+
+#Inicio {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#Inicio{
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#Inicio:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+   font-size: 20px;
+}
+
+
+.link-div {
+  text-decoration: none;
+}
+
+.sobre-mim {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.sobre-mim:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+
+.link-div {
+  text-decoration: none;
+}
+
+.habilidades {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.habilidades:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#Projetos {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#Projetos{
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#Projetos:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+   font-size: 22px;
+}
+
+.link-div {
+  text-decoration: none;
+}
+
+.Contados {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 9px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+  position: relative;
+  top: 7px;
+}
+
+.Contados:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  
+}
+
+p{
+  color: rgb(40, 104, 57);
+  display: flex;
+  justify-content: space-evenly;
+ font-family:monospace;
+ font-size: 50px;
+
+}
+
+h1{
+  color: rgb(238, 236, 246);
+  display: flex;
+  justify-content: space-evenly;
+  font-family:fantasy;
+ font-size: 32px;
+}

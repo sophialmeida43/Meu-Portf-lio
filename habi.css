@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+h1{
+    color:  rgb(40, 104, 57);
+    display: flex;
+    justify-content: space-evenly;
+    height: 10px;
+    font-size: 30px;
+    font-family:monospace;
+}
+#container {
+    width:0 px;
+    height: 499px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+/* Centraliza as logos dentro das divs */
+#div1 img, 
+#div2 img, 
+#div3 img {
+    display: block;
+    margin: 0 auto; /* centraliza horizontalmente */
+    width: 95px; /* tamanho ajustável — pode mudar se quiser maior ou menor */
+    height: 100px;
+}
+
+/* Garante que o conteúdo (texto + imagem) fique organizado */
+#div1, #div2, #div3 {
+    display: flex;
+    flex-direction: column; /* coloca imagem em cima e texto embaixo */
+    align-items: center; /* centraliza tudo no eixo horizontal */
+    justify-content: center; /* centraliza verticalmente */
+    text-align: left; /* centraliza o texto */
+}
+
+#div1 {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  padding: 128px;
+  font-size: 30px;
+  border-radius: 25px;
+  transition: 0.5s;
+  position: relative;
+}
+
+/* Estilo base para todas as divs */
+#div1, #div2, #div3 {
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  padding: 128px;
+  font-size: 28px;
+  border-radius: 25px;
+  border: 2px solid rgb(62, 62, 62);
+  height: 100px;
+  width: 100px;
+  transition: 0.5s ease;
+  position: relative;
+  box-shadow: 0 0 5px #000; /* sombra leve padrão */
+}
+
+/* Efeito neon branco ao passar o mouse */
+#div1:hover, #div2:hover, #div3:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 25px 8px #fff; /* brilho neon branco */
+}
